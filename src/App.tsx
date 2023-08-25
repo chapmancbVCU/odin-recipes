@@ -1,13 +1,23 @@
-
 import './App.css'
-
+import Deserts from './components/Deserts';
+import Dinner from './components/Dinner';
+import { HashRouter, Route, Routes} from 'react-router-dom';
+import Home from './components/Home';
+import Nav from './components/Nav';
 function App() {
 
-  return (
-    <>
-      <h1>Hi</h1>
-    </>
-  )
+    return (
+        <HashRouter>
+            <div className="App">
+            <Nav />
+                <Routes>
+                    <Route path="/" element={<Home />}/>
+                    <Route path="/dinner" element={<Dinner />} />
+                    <Route path="/deserts" element={<Deserts />} />
+                </Routes>
+            </div>
+        </HashRouter>
+    )
 }
 
 export default App
