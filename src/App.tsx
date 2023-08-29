@@ -9,7 +9,7 @@ function App() {
     return (
         <HashRouter>
             <div className="App">
-            <Nav />
+                <Nav />
                 <Routes>
                     <Route path="/" element={<Home />}/>
                     <Route path="/dinner" element={<Dinner />} />
