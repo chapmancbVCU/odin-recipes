@@ -54,7 +54,10 @@ nav {
     text-decoration: none;
     color: whitesmoke;
 }
-  
+
+.nav-link > li {
+    font-size: 20px;
+}
 .nav-links {
     margin-left: auto;
     width: 50%;
