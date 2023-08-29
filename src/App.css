@@ -4,7 +4,39 @@
    width: 100%;
 
    text-align: center;
+   padding-top: 15px;
+   padding-bottom: 15px;
+
+   background-color: rgb(73, 79, 82);
+   color: whitesmoke;
 }
+
+.footer-link:link {
+    color: whitesmoke;
+}
+
+.footer-link:visited {
+    color: whitesmoke;
+}
+
+.footer-link:hover {
+    color: whitesmoke;
+}
+
+.footer-text {
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer-text:first-of-type {
+    margin-top: 1px;
+}
+
+.footer-text:last-of-type {
+    margin-bottom: 1px;
+}
+
 .home-link {
     margin-left: 15%;
 }
@@ -15,12 +47,12 @@ nav {
     align-items: center;
     min-height: 10vh;
     background-color: rgb(73, 79, 82);
-    color: white;
+    color: whitesmoke;
 }
   
 .nav-link {
     text-decoration: none;
-    color: white;
+    color: whitesmoke;
 }
   
 .nav-links {
