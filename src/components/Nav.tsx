@@ -12,8 +12,8 @@ function Nav() {
                 <Link className="nav-link" to="/dinner">
                     <li>Dinner</li>
                 </Link>
-                <Link className="nav-link" to="/deserts">
-                    <li>Deserts</li>
+                <Link className="nav-link" to="/desserts">
+                    <li>Desserts</li>
                 </Link>
             </ul>
         </nav>

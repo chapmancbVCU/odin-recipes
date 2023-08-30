@@ -1,5 +1,5 @@
 import './App.css'
-import Deserts from './components/Deserts';
+import Desserts from './components/Desserts';
 import Dinner from './components/Dinner';
 import Footer from './components/Footer';
 import { HashRouter, Route, Routes} from 'react-router-dom';
@@ -14,7 +14,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Home />}/>
                     <Route path="/dinner" element={<Dinner />} />
-                    <Route path="/deserts" element={<Deserts />} />
+                    <Route path="/desserts" element={<Desserts />} />
                 </Routes>
                 <Footer />
             </div>
