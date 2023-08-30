@@ -37,6 +37,12 @@
     margin-bottom: 1px;
 }
 
+h1 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .home-link {
     margin-left: 15%;
 }
