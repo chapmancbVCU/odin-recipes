@@ -2,7 +2,7 @@
  * IMPORTS                                                                    *
  *****************************************************************************/
 import "../App.css";
-import { recipeArray } from "../Recipes";
+import { recipeArray } from "./Recipes";
 
 
 /**
