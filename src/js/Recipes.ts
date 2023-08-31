@@ -1,7 +1,7 @@
 export const recipeArray:any[] = [
     { 
         id: 1, 
-        name: "Breakfast Egg and Ham Burritoh", 
+        name: "Breakfast Egg and Ham Burrito", 
         type: "breakfast",
         description: "If you are tired of the same boring breakfast, try this satisfying and tasty burrito. You can experiment with different veggies in this recipe too.",
         prepTime: "15 minutes",
