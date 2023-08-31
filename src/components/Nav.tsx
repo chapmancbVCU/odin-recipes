@@ -16,6 +16,9 @@ function Nav() {
                 <h2>Odin Recipes Home</h2>
             </Link>
             <ul className="nav-links">
+                <Link className="nav-link" to="/breakfast">
+                    <li>Breakfast</li>
+                </Link>
                 <Link className="nav-link" to="/dinner">
                     <li>Dinner</li>
                 </Link>

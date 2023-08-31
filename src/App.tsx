@@ -2,6 +2,7 @@
  * IMPORTS                                                                    *
  *****************************************************************************/
 import './App.css'
+import Breakfast from './components/Breakfast';
 import Desserts from './components/Desserts';
 import Dinner from './components/Dinner';
 import Footer from './components/Footer';
@@ -22,6 +23,7 @@ function App() {
                 <Nav />
                 <Routes>
                     <Route path="/" element={<Home />}/>
+                    <Route path="/breakfast" element={<Breakfast />} />
                     <Route path="/dinner" element={<Dinner />} />
                     <Route path="/desserts" element={<Desserts />} />
                 </Routes>
