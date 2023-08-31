@@ -1,4 +1,13 @@
+/******************************************************************************
+ * IMPORTS                                                                    *
+ *****************************************************************************/
 import "../App.css";
+
+
+/**
+ * Renders the Dinner component.
+ * @returns HTMLDivElement containing Dinner component.
+ */
 function Dinner() {
     return (
         <div>

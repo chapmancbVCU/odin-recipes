@@ -1,7 +1,14 @@
-//import React from "react";
+/******************************************************************************
+ * IMPORTS                                                                    *
+ *****************************************************************************/
 import { Link } from "react-router-dom";
 import "../App.css";
 
+
+/**
+ * Renders the Navigation component.
+ * @returns HTMLDivElement containing the Navigation component.
+ */
 function Nav() {
     return (
         <nav>

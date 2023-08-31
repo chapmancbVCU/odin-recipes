@@ -1,10 +1,13 @@
-//import React, { useState, useEffect } from "react";
+/******************************************************************************
+ * IMPORTS                                                                    *
+ *****************************************************************************/
 import "../App.css";
 import { recipeArray } from "../Recipes";
 
+
 /**
  * Renders the home component of the website.
- * @returns HTMLDivElement for home component
+ * @returns HTMLDivElement for home component.
  */
 function Home() {
 

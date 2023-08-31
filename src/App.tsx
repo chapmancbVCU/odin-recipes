@@ -1,3 +1,6 @@
+/******************************************************************************
+ * IMPORTS                                                                    *
+ *****************************************************************************/
 import './App.css'
 import Desserts from './components/Desserts';
 import Dinner from './components/Dinner';
@@ -5,6 +8,12 @@ import Footer from './components/Footer';
 import { HashRouter, Route, Routes} from 'react-router-dom';
 import Home from './components/Home';
 import Nav from './components/Nav';
+
+
+/**
+ * Renders the App.
+ * @returns Renders HTMLDivElement containing the App.
+ */
 function App() {
 
     return (

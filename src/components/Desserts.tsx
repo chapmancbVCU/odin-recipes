@@ -1,4 +1,13 @@
+/******************************************************************************
+ * IMPORTS                                                                    *
+ *****************************************************************************/
 import "../App.css";
+
+
+/**
+ * Renders the Desserts component.
+ * @returns HTMLDivElement containing Desserts component.
+ */
 function Desserts() {
     return (
         <div>
