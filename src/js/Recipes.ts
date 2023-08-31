@@ -19,7 +19,13 @@ export const recipeArray:any[] = [
             { ingredientName: "corn tortillas (heated)", quantity: "4" },
             { ingredientName: "salsa", quantity: "4 tsp" },
         ],
-        source: "https://www.diabetesfoodhub.org/recipes/breakfast-egg-and-ham-burrito.html",
+        directions: [
+            "In a medium bowl, whisk together the eggs, egg whites, hot pepper sauce, black pepper, and cheese.",
+            "Heat the margarine in a medium non-stick pan over medium heat. Add the ham and sauté for 2-3 minutes. Remove the ham from the pan.",
+            "Add the onions and green peppers to the hot pan, and cook for about 5 minutes. Add the ham back to pan.",
+            "Reduce the heat to low and add the eggs to pan. Gently stir the eggs with a spoon or spatula and continue lightly cooking over low heat until the eggs are cooked and set.",
+            "Evenly divide the egg mixture into 4 servings. Spoon each portion of the egg mixture into a tortilla and top each with 1 tsp. salsa. Fold the tortilla to close."
+        ],
         image: "breakfast-burrito_127230797_101119_3864451747.jpeg"
     }, 
     { 
@@ -32,13 +38,13 @@ export const recipeArray:any[] = [
         ingredients: [
             { ingredientName: "eggs", quantity: "1" },
             { ingredientName: "ripe banana (mashed)", quantity: "1" },
-            { ingredientName: "peanut butter (heated in microwave for 30 seconds)", quantity: "1/2 cup"},
-            { ingredientName: "vanilla extract", quantity: "1 tsp"},
-            { ingredientName: "Splenda Brown Sugar blend", quantity: "2 tsp"},
-            { ingredientName: "old-fashioned rolled oats (not quick cooking) (gluten-free if needed)", quantity: "2 cup"},
-            { ingredientName: "baking soda", quantity: " tsp"},
-            { ingredientName: "salt", quantity: "1/2 tsp"},
-            { ingredientName: "ground flax seed", quantity: "1/4 cup"}
+            { ingredientName: "peanut butter (heated in microwave for 30 seconds)", quantity: "1/2 cup" },
+            { ingredientName: "vanilla extract", quantity: "1 tsp" },
+            { ingredientName: "Splenda Brown Sugar blend", quantity: "2 tsp" },
+            { ingredientName: "old-fashioned rolled oats (not quick cooking) (gluten-free if needed)", quantity: "2 cup" },
+            { ingredientName: "baking soda", quantity: " tsp" },
+            { ingredientName: "salt", quantity: "1/2 tsp" },
+            { ingredientName: "ground flax seed", quantity: "1/4 cup" }
         ],
         directions: [
             "Preheat oven to 350 degrees. Line a baking sheet with parchment paper.",
@@ -47,13 +53,37 @@ export const recipeArray:any[] = [
             "Add oat mixture to peanut butter mixture and mix well.",
             "Scoop batter into 1 Tbsp. balls and place on baking sheet. Bake for 10-12 minutes. Cool on wire rack."
         ],
-        source: "https://www.diabetesfoodhub.org/recipes/peanut-butter-banana-oat-bites.html?home-category_id=20",
         image: "peanut-butter-banana-oat-bites_diabetes-cookbook_081618_1021x779_3885281428.jpeg"
     },
     {
         id: 3,
-        name: "bar",
-        type: "dinner"
+        name: "Beef Stroganoff",
+        type: "dinner",
+        description: "Classic beef stroganoff. Save yourself prep time with this recipe by buying presliced mushrooms.",
+        prepTime: "15 minutes",
+        servings: "5",
+        ingredients: [
+            { ingredientName: "Ronzoni Healthy Harvest Whole Grain egg noodles (uncooked)", quantity: "5 oz" },
+            { ingredientName: "olive oil", quantity: "2 tsp" },
+            { ingredientName: "beef tenderloin (sliced into 2-inch strips)", quantity: "1 lbs" },
+            { ingredientName: "white (button) mushrooms (sliced)", quantity: "1 1/2 cup" },
+            { ingredientName: "onion(s) (minced)", quantity: "1/2 cup" },
+            { ingredientName: "all-purpose flour", quantity: "1 tbsp" },
+            { ingredientName: "dry white wine", quantity: "1/2 cup" },
+            { ingredientName: "Dijon Mustard", quantity: "1 tsp" },
+            { ingredientName: "fat free, low sodium beef broth", quantity: "1 (14.5-oz) can" },
+            { ingredientName: "fat-free sour cream", quantity: "1/2 cup" },
+            { ingredientName: "salt (optional)", quantity: "1/4 tsp" },
+            { ingredientName: "black pepper", quantity: "1/4 tsp"}
+        ],
+        directions: [
+            "Cook noodles according to package directions, omitting salt.",
+            "Add oil to a large sauté pan over high heat. Add meat and sauté for about 3 minutes. Remove meat from pan. Add mushrooms and onion and sauté for 5 minutes or until beginning to brown.",
+            "Add flour and cook for 1 minute. Add wine to deglaze pan; cook for 2 minutes. Add Dijon mustard and beef broth; bring to a boil. Reduce heat and simmer for 5 minutes.",
+            "Add beef and any juices back to broth and simmer for 3 more minutes. Add sour cream, salt (optional), and pepper; simmer for 30 seconds.",
+            "Serve over whole-grain egg noodles."
+        ],
+        image: "RecId_79_BeefStroganoff_Thinkstock487537715_021618_2383889296.jpg"
     },
     {
         id: 4,
