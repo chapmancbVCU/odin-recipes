@@ -109,6 +109,7 @@ export const recipeArray:any[] = [
             "Add the remaining 2 tsp olive oil to a large sauté pan over medium-high heat. Add the pork chops and sear for about 5 minutes per side or until done. (Reserve marinade for later).",
             "Place the marinade in a small saucepan. Bring it to a boil; reduce the heat and simmer about 2 minutes. Place the pork chops on serving platter and pour the cooked marinade over them.",
             "Top the pork chops with chopped cilantro and serve with the steamed broccoli."
-        ]
+        ],
+        image: "Asian-Pork-Chops_PNC_MG_0043-Edit-(ZF-5661-35964-1-078)_4054547978.jpg"
     }
 ]
