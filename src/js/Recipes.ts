@@ -74,7 +74,7 @@ export const recipeArray:any[] = [
             { ingredientName: "fat free, low sodium beef broth", quantity: "1 (14.5-oz) can" },
             { ingredientName: "fat-free sour cream", quantity: "1/2 cup" },
             { ingredientName: "salt (optional)", quantity: "1/4 tsp" },
-            { ingredientName: "black pepper", quantity: "1/4 tsp"}
+            { ingredientName: "black pepper", quantity: "1/4 tsp" }
         ],
         directions: [
             "Cook noodles according to package directions, omitting salt.",
@@ -87,7 +87,28 @@ export const recipeArray:any[] = [
     },
     {
         id: 4,
-        name: "haha",
-        type: "desserts"
+        name: "Asian Pork Chops",
+        type: "dinner",
+        description: "Regular soy sauce contains wheat and gluten, so if you need to follow a gluten-free diet, make sure you purchase gluten-free soy sauce for this recipe.",
+        prepTime: "20 minutes, 10 minutes cooking",
+        servings: "4",
+        ingredients: [
+            { ingredientName: "soy sauce (reduced-sodium)", quantity: "2 tablespoons plus 1 teaspoon" },
+            { ingredientName: "rice wine vinegar", quantity: "3 tbsp" },
+            { ingredientName: "water", quantity: "2 tbsp" },
+            { ingredientName: "olive oil (divided use)", quantity: "1 tbsp plus 2 tsp" },
+            { ingredientName: "crushed red pepper flakes", quantity: "1/4 tsp" },
+            { ingredientName: "garlic (minced)", quantity: "1 clove" },
+            { ingredientName: "broccoli florets", quantity: "2 cup" },
+            { ingredientName: "pork loin boneless chops (divided into 4 portions)", quantity: "1 lbs" },
+            { ingredientName: "cilantro (chopped)", quantity: "2 tbsp" }
+        ],
+        directions: [
+            "In a medium bowl, combine the soy sauce, vinegar, water, 1 tablespoon olive oil, crushed red pepper, and garlic. Add the pork chops and marinate them in refrigerator for 20 minutes or longer.",
+            "Steam the broccoli for 5 minutes; until tender.",
+            "Add the remaining 2 tsp olive oil to a large sauté pan over medium-high heat. Add the pork chops and sear for about 5 minutes per side or until done. (Reserve marinade for later).",
+            "Place the marinade in a small saucepan. Bring it to a boil; reduce the heat and simmer about 2 minutes. Place the pork chops on serving platter and pour the cooked marinade over them.",
+            "Top the pork chops with chopped cilantro and serve with the steamed broccoli."
+        ]
     }
 ]
