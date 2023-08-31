@@ -1,8 +1,26 @@
 export const recipeArray:any[] = [
     { 
         id: 1, 
-        name: "blah", 
-        type: "dinner"
+        name: "Breakfast Egg and Ham Burritoh", 
+        type: "breakfast",
+        description: "If you are tired of the same boring breakfast, try this satisfying and tasty burrito. You can experiment with different veggies in this recipe too.",
+        prepTime: "15 minutes",
+        servings: "4",
+        ingredients: [
+            { ingredientName: "eggs", quantity: "4" },
+            { ingredientName: "egg white", quantity: 4 },
+            { ingredientName: "Dash hot pepper sauce", quantity: "1" },
+            { ingredientName: "black pepper", quantity: "1/4 tsp" },
+            { ingredientName: "cheddar cheese (reduced-fat, shredded)", quantity: "2 tbsp" },
+            { ingredientName: "margarine (trans fat-free)", quantity: "2 tsp" },
+            { ingredientName: "deli ham (reduced-sodium, chopped, (about 3 ounces))", quantity: "4 slices" },
+            { ingredientName: "onion(s) (diced)", quantity: "1/4 cup" },
+            { ingredientName: "green pepper (diced)", quantity: "1/4 cup" },
+            { ingredientName: "corn tortillas (heated)", quantity: "4" },
+            { ingredientName: "salsa", quantity: "4 tsp" },
+        ],
+        source: "https://www.diabetesfoodhub.org/recipes/breakfast-egg-and-ham-burrito.html",
+        image: "breakfast-burrito_127230797_101119_3864451747.jpeg"
     }, 
     { 
         id: 2, 
@@ -28,7 +46,9 @@ export const recipeArray:any[] = [
             "In a small bowl mix together oats, baking soda and salt. Add milled flaxseed.",
             "Add oat mixture to peanut butter mixture and mix well.",
             "Scoop batter into 1 Tbsp. balls and place on baking sheet. Bake for 10-12 minutes. Cool on wire rack."
-        ]
+        ],
+        source: "https://www.diabetesfoodhub.org/recipes/peanut-butter-banana-oat-bites.html?home-category_id=20",
+        image: "peanut-butter-banana-oat-bites_diabetes-cookbook_081618_1021x779_3885281428.jpeg"
     },
     {
         id: 3,
