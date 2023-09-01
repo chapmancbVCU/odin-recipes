@@ -45,12 +45,15 @@ function Home() {
 
 
     return (
-        <div className="home">
+        <div>
             <h1>Home</h1>
-
-            <ul>
+            <ul className="recipe-preview">
                 {previewArray.map((recipe, index) => (
-                    <li key={index}>{recipe.name}</li>
+                    <li key={index}>
+                        
+                        <h3>{recipe.name}</h3>
+                        
+                    </li>
                 ))}
             </ul>
         </div>
