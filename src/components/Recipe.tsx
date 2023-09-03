@@ -141,7 +141,7 @@ function Recipe() {
             <h1>{name}</h1>
             <img 
                 className="recipe-image"
-                src={"/public/images/" + imageName} 
+                src={"/images/" + imageName} 
             />
         </div>
     );
