@@ -79,12 +79,15 @@ nav {
 }
 
 .preview-img {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 15px auto;
     display: block;
     width: 90%;
+}
+
+.recipe-image {
+    width: 75%;
+    margin: 25px auto;
+    display: block;
 }
 
 .recipe-name {
