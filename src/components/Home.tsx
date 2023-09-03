@@ -52,7 +52,7 @@ function Home() {
                 {previewArray.map((recipe, index) => (
                     <li key={index}>
                         <Link to={"/recipe/" + recipe.id}>
-                            <h3>{recipe.name}</h3>
+                            <h3 className="recipe-name">{recipe.name}</h3>
                             <img
                                 className="preview-img" 
                                 src={'/public/images/' + recipe.image}
