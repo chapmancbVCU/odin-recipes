@@ -2,6 +2,7 @@
  * IMPORTS                                                                    *
  *****************************************************************************/
 import "../App.css";
+import { Link } from "react-router-dom";
 import { recipeArray } from "../js/Recipes.ts";
 
 
@@ -50,12 +51,13 @@ function Home() {
             <ul className="recipe-preview">
                 {previewArray.map((recipe, index) => (
                     <li key={index}>
-                        
-                        <h3>{recipe.name}</h3>
-                        <img
-                            className="preview-img" 
-                            src={'/public/images/' + recipe.image}
-                        />
+                        <Link to={"/recipe/" + recipe.id}>
+                            <h3>{recipe.name}</h3>
+                            <img
+                                className="preview-img" 
+                                src={'/public/images/' + recipe.image}
+                            />
+                        </Link>
                     </li>
                 ))}
             </ul>
