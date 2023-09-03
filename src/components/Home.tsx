@@ -52,8 +52,10 @@ function Home() {
                     <li key={index}>
                         
                         <h3>{recipe.name}</h3>
-                        <img src={'/public/images/' + recipe.image}/>
-                        
+                        <img
+                            className="preview-img" 
+                            src={'/public/images/' + recipe.image}
+                        />
                     </li>
                 ))}
             </ul>
