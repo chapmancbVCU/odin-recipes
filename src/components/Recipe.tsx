@@ -109,6 +109,7 @@ function Recipe() {
     const directions:any[] = getDirections(params.id);
     const imageName = getImageFileName(params.id);
 
+    console.log("******************************************");
     console.log("Name: " + name)
     console.log("Type: " + type);
     console.log("Description: " + description);
@@ -138,6 +139,10 @@ function Recipe() {
     return (
         <div>
             <h1>{name}</h1>
+            <img 
+                className="recipe-image"
+                src={"/public/images/" + imageName} 
+            />
         </div>
     );
 };
