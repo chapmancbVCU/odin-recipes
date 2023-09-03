@@ -2,6 +2,11 @@ body {
     font-family: Tahoma, Verdana, Arial, sans-serif;
 }
 
+.description {
+    width: 75%;
+    text-align: center;
+}
+
 .footer {
    position: fixed;
    bottom: 0;
