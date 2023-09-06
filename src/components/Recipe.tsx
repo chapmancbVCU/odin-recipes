@@ -144,6 +144,9 @@ function Recipe() {
                 src={"/src/images/" + imageName} 
             />
             <p className="description">{description}</p>
+            <img src="/src/icons/food-outline-custom.png"/>
+            <img src="/src/icons/av-timer-custom.png"/>
+        
         </div>
     );
 };
