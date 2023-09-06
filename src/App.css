@@ -91,6 +91,22 @@ nav {
     width: 90%;
 }
 
+.recipe-icon {
+    display: flex;
+    flex-direction: row;
+}
+
+.recipe-icon > div {
+    margin-left: auto;
+}
+
+.recipe-icons {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 25px auto;
+}
+
 .recipe-image {
     width: 75%;
     margin: 25px auto;
@@ -117,6 +133,15 @@ nav {
 }
 
 @media only screen and (min-width: 700px) {
+    .recipe-icons {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .recipe-icon > div {
+        margin-left: 10px;
+    }
+
     .recipe-preview {
         flex-direction: row;
         justify-content: space-evenly;
