@@ -136,6 +136,7 @@ function Recipe() {
     console.log("Image Name:" + imageName);
     console.log("******************************************\n\n\n\n\n");
 
+    
     return (
         <div>
             <h1>{name}</h1>
@@ -155,7 +156,14 @@ function Recipe() {
                 </div>
             </div>
             
-        
+            <h2>Ingredients</h2>
+            
+            <h2>Directions</h2>
+            <ol className="directions-list">
+                {directions.map((direction: string) => {
+                   return <li>{direction}</li> 
+                })}
+            </ol>
         </div>
     );
 };
