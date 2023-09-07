@@ -9,6 +9,10 @@ body {
     margin-right: auto;
 }
 
+.direction-list-item {
+    line-height: 35px;
+}
+
 .directions-list > li {
     display: list-item;
     list-style-position: inside;
@@ -64,7 +68,7 @@ h1 {
 
 h2 {
     width: 75%;
-    margin: 15px auto;
+    margin: 25px auto 10px auto;
 }
 
 .home-link {

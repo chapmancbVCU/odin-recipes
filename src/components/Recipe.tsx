@@ -175,7 +175,7 @@ function Recipe() {
             <h2>Directions</h2>
             <ol className="directions-list">
                 {directions.map((direction: string) => {
-                   return <li>{direction}</li> 
+                   return <li className="direction-list-item">{direction}</li> 
                 })}
             </ol>
         </div>
