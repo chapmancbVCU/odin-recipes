@@ -157,7 +157,21 @@ function Recipe() {
             </div>
             
             <h2>Ingredients</h2>
-            
+            <table className="ingredients-table">
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                </tr>
+                {ingredients.map(({ingredientName, quantity}: any) => {
+                    return (
+                        <tr>
+                            <td>{ingredientName}</td>
+                            <td>{quantity}</td>
+                        </tr>
+                    )   
+                })}
+            </table>
+
             <h2>Directions</h2>
             <ol className="directions-list">
                 {directions.map((direction: string) => {
