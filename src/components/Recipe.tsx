@@ -165,8 +165,8 @@ function Recipe() {
                 {ingredients.map(({ingredientName, quantity}: any) => {
                     return (
                         <tr>
-                            <td>{ingredientName}</td>
-                            <td>{quantity}</td>
+                            <td className="td-ingredient-name">{ingredientName}</td>
+                            <td className="td-quantity">{quantity}</td>
                         </tr>
                     )   
                 })}
