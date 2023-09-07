@@ -9,6 +9,14 @@ body {
     margin-right: auto;
 }
 
+.directions-list > li {
+    display: list-item;
+    list-style-position: inside;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .footer {
    position: fixed;
    bottom: 0;
@@ -52,6 +60,11 @@ h1 {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+h2 {
+    width: 75%;
+    margin: 15px auto;
 }
 
 .home-link {
