@@ -154,6 +154,18 @@ nav {
     margin-bottom: 25px;
 }
 
+.td-ingredient-name {
+    padding-left: 10px;
+}
+
+.td-quantity {
+    text-align: center;
+}
+
+tr {
+    height: 35px;
+}
+
 @media only screen and (min-width: 700px) {
     .recipe-icons {
         flex-direction: row;
