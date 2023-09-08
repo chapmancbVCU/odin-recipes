@@ -28,7 +28,7 @@ function App() {
                     <Route path="/desserts" element={<Desserts />} />
                     <Route path="/recipe/:id" element={<Recipe />} />
                 </Routes>
-                {/* <Footer /> */}
+                <Footer />
             </div>
         </HashRouter>
     )
