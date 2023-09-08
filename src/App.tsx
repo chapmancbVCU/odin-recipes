@@ -5,7 +5,7 @@ import './App.css'
 import Breakfast from './components/Breakfast';
 import Desserts from './components/Desserts';
 import Dinner from './components/Dinner';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 import { HashRouter, Route, Routes} from 'react-router-dom';
 import Home from './components/Home';
 import Nav from './components/Nav';
