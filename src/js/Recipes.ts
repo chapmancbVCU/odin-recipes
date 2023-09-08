@@ -31,7 +31,7 @@ export const recipeArray:any[] = [
     { 
         id: 2, 
         name: "Peanut Butter Banana Oat Bites", 
-        type: "desserts",
+        type: "dessert",
         description: "These satisfying high-fiber bites make a great snack or quick breakfast. You can freeze a couple bites in a snack-size plastic bag for a grab and go breakfast too!",
         prepTime: "15 minutes",
         servings: "24",
