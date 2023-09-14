@@ -55,7 +55,7 @@ function Home() {
                             <h3 className="recipe-name">{recipe.name}</h3>
                             <img
                                 className="preview-img" 
-                                src={'/src/images/' + recipe.image}
+                                src={'/images/' + recipe.image}
                             />
                         </Link>
                     </li>
