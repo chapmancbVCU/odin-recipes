@@ -147,11 +147,11 @@ function Recipe() {
             <p className="description">{description}</p>
             <div className="recipe-icons">
                 <div className="recipe-icon">
-                    <img src="/icons/food-outline-custom.png"/>
+                    <img src="/src/assets/food-outline-custom.png"/>
                     <div>{servings}</div>
                 </div>
                 <div className="recipe-icon">
-                    <img src="/icons/av-timer-custom.png"/>
+                    <img src="/src/assets/av-timer-custom.png"/>
                     <div>{prepTime}</div>
                 </div>
             </div>
