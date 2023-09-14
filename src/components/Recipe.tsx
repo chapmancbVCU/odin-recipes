@@ -142,16 +142,16 @@ function Recipe() {
             <h1>{name}</h1>
             <img 
                 className="recipe-image"
-                src={"/src/images/" + imageName} 
+                src={"/images/" + imageName} 
             />
             <p className="description">{description}</p>
             <div className="recipe-icons">
                 <div className="recipe-icon">
-                    <img src="/src/icons/food-outline-custom.png"/>
+                    <img src="/icons/food-outline-custom.png"/>
                     <div>{servings}</div>
                 </div>
                 <div className="recipe-icon">
-                    <img src="/src/icons/av-timer-custom.png"/>
+                    <img src="/icons/av-timer-custom.png"/>
                     <div>{prepTime}</div>
                 </div>
             </div>
