@@ -4,7 +4,9 @@
 import "../App.css";
 import { useParams } from "react-router-dom";
 import { recipeArray } from "../js/Recipes.ts";
-import servingIcon from '../../public/icons/food-outline-custom.png'
+import prepTimeIcon from '../../public/icons/av-timer-custom.png';
+import servingIcon from '../../public/icons/food-outline-custom.png';
+
 
 /**
  * Renders the component for individual recipes.
@@ -151,7 +153,7 @@ function Recipe() {
                     <div>{servings}</div>
                 </div>
                 <div className="recipe-icon">
-                    <img src="/icons/av-timer-custom.png"/>
+                    <img src={prepTimeIcon}/>
                     <div>{prepTime}</div>
                 </div>
             </div>
