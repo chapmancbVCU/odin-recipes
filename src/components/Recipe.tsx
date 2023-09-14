@@ -4,7 +4,7 @@
 import "../App.css";
 import { useParams } from "react-router-dom";
 import { recipeArray } from "../js/Recipes.ts";
-
+import servingIcon from '../../public/icons/food-outline-custom.png'
 
 /**
  * Renders the component for individual recipes.
@@ -136,7 +136,7 @@ function Recipe() {
     console.log("Image Name:" + imageName);
     console.log("******************************************\n\n\n\n\n");
 
-    
+
     return (
         <div>
             <h1>{name}</h1>
@@ -147,7 +147,7 @@ function Recipe() {
             <p className="description">{description}</p>
             <div className="recipe-icons">
                 <div className="recipe-icon">
-                    <img src="/icons/food-outline-custom.png"/>
+                    <img src={servingIcon}/>
                     <div>{servings}</div>
                 </div>
                 <div className="recipe-icon">
