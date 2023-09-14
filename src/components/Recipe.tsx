@@ -109,7 +109,7 @@ function Recipe() {
     const servings = getNumberOfServings(params.id)
     const ingredients:any[] = getIngredients(params.id);
     const directions:any[] = getDirections(params.id);
-    const imageName = getImageFileName(params.id);
+    const imageName = '../../public/images/' + getImageFileName(params.id);
 
     console.log("******************************************");
     console.log("Name: " + name)
