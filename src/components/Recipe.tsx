@@ -3,7 +3,7 @@
  *****************************************************************************/
 import "../App.css";
 import { useParams } from "react-router-dom";
-import { recipeArray } from "../js/Recipes.ts";
+import { recipeArray } from "../typescript/Recipes.ts";
 import prepTimeIcon from '/icons/av-timer-custom.png';
 import servingIcon from '/icons/food-outline-custom.png';
 

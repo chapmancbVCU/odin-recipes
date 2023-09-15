@@ -3,7 +3,7 @@
  *****************************************************************************/
 import "../App.css";
 import { Link } from "react-router-dom";
-import { recipeArray } from "../js/Recipes";
+import { recipeArray } from "../typescript/Recipes";
 
 
 /**
