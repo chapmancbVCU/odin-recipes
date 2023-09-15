@@ -42,7 +42,7 @@ export const recipeArray:any[] = [
             { ingredientName: "vanilla extract", quantity: "1 tsp" },
             { ingredientName: "Splenda Brown Sugar blend", quantity: "2 tsp" },
             { ingredientName: "old-fashioned rolled oats (not quick cooking) (gluten-free if needed)", quantity: "2 cup" },
-            { ingredientName: "baking soda", quantity: " tsp" },
+            { ingredientName: "baking soda", quantity: "1 tsp" },
             { ingredientName: "salt", quantity: "1/2 tsp" },
             { ingredientName: "ground flax seed", quantity: "1/4 cup" }
         ],
