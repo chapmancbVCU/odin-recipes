@@ -12,6 +12,10 @@ import { recipeArray } from "../js/Recipes";
  */
 function Desserts() {
 
+    /**
+     * An array to preview the list of recipes for the desserts catetory.
+     * @type { any[] }
+     */
     const previewArray:any[] = [];
 
     for(let i = 0; i < recipeArray.length; i++) {
@@ -20,6 +24,8 @@ function Desserts() {
             console.log(recipeArray[i].type)
         }
     }
+
+
     return (
         <div>
             <h1>Dessert</h1>
