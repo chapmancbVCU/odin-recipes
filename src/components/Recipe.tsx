@@ -4,8 +4,8 @@
 import "../App.css";
 import { useParams } from "react-router-dom";
 import { recipeArray } from "../js/Recipes.ts";
-import prepTimeIcon from '../../public/icons/av-timer-custom.png';
-import servingIcon from '../../public/icons/food-outline-custom.png';
+import prepTimeIcon from '/icons/av-timer-custom.png';
+import servingIcon from '/icons/food-outline-custom.png';
 
 
 /**
@@ -144,7 +144,7 @@ function Recipe() {
             <h1>{name}</h1>
             <img 
                 className="recipe-image"
-                src={"../../public/images/" + imageName} 
+                src={"/images/" + imageName} 
             />
             <p className="description">{description}</p>
             <div className="recipe-icons">
