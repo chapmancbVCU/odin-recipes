@@ -37,6 +37,7 @@ function Desserts() {
                             <img
                                 className="preview-img" 
                                 src={'./images/' + recipe.image}
+                                alt="Example image of meal" 
                             />
                         </Link>
                     </li>

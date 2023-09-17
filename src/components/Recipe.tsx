@@ -144,7 +144,8 @@ function Recipe() {
             <h1>{name}</h1>
             <img 
                 className="recipe-image"
-                src={"./images/" + imageName} 
+                src={"./images/" + imageName}
+                alt="Example image of meal" 
             />
             <p className="description">{description}</p>
             <div className="recipe-icons">
